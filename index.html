@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
-<title>LUMÉ — Curated Essentials</title>
+<title>LUMÃ‰ â€” Curated Essentials</title>
 
 <!-- Fonts: a quiet, elegant serif for product/display, clean grotesk for UI -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -406,7 +406,7 @@
 <!-- ============================= NAV ============================= -->
 <header class="nav">
   <div class="nav-inner">
-    <div class="brand"><span class="dot"></span> LUMÉ</div>
+    <div class="brand"><span class="dot"></span> LUMÃ‰</div>
     <nav class="nav-links">
       <a href="#shop">Shop</a>
       <a href="#about">About</a>
@@ -424,9 +424,9 @@
 <!-- ============================= HERO ============================= -->
 <section class="hero">
   <div class="wrap">
-    <div class="hero-eyebrow">Curated Drop — Limited Stock</div>
+    <div class="hero-eyebrow">Curated Drop â€” Limited Stock</div>
     <h1>Quiet luxury for <em>everyday</em> moments.</h1>
-    <p class="lead">Thoughtfully sourced essentials, finished by hand and delivered to your door. No noise, no markups — just pieces built to outlast trends.</p>
+    <p class="lead">Thoughtfully sourced essentials, finished by hand and delivered to your door. No noise, no markups â€” just pieces built to outlast trends.</p>
     <div class="hero-cta">
       <a href="#shop" class="btn btn-primary"><i data-lucide="sparkles" style="width:17px;height:17px;"></i> Explore the Collection</a>
       <a href="#about" class="btn btn-ghost">Our Story</a>
@@ -458,7 +458,7 @@
   <div class="wrap">
     <div class="glass" style="padding:48px 40px; display:flex; gap:40px; flex-wrap:wrap; align-items:center; justify-content:space-between;">
       <div style="max-width:520px;">
-        <div class="section-eyebrow">Why Lumé</div>
+        <div class="section-eyebrow">Why LumÃ©</div>
         <h2 style="font-family:'Fraunces',serif; font-weight:450; font-size:1.8rem; margin:10px 0 14px;">Small batch. Honest pricing. Real people.</h2>
         <p style="color:var(--ink-2); line-height:1.7; margin:0; font-size:0.95rem;">We work directly with independent makers, cut out the middlemen, and pass the difference back to you. Order today, and our team personally calls to confirm every detail before it ships.</p>
       </div>
@@ -476,8 +476,8 @@
   <div class="wrap">
     <div class="footer-grid">
       <div>
-        <div class="brand"><span class="dot"></span> LUMÉ</div>
-        <p>Curated essentials, delivered with care. Reach out any time — our team replies within minutes during business hours.</p>
+        <div class="brand"><span class="dot"></span> LUMÃ‰</div>
+        <p>Curated essentials, delivered with care. Reach out any time â€” our team replies within minutes during business hours.</p>
       </div>
       <div class="footer-cols">
         <div class="footer-col">
@@ -493,7 +493,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Lumé. All rights reserved.</span>
+      <span>Â© 2026 LumÃ©. All rights reserved.</span>
       <span>Designed with care.</span>
     </div>
   </div>
@@ -554,7 +554,7 @@
       <!-- formsubmit.co control fields: zero-friction, no captcha, no redirect template -->
       <input type="hidden" name="_captcha" value="false">
       <input type="hidden" name="_template" value="table">
-      <input type="hidden" name="_subject" value="??? New Order Received — Lumé">
+      <input type="hidden" name="_subject" value="??? New Order Received â€” LumÃ©">
 
       <div class="submit-row">
         <button type="submit" class="btn btn-primary" id="submitOrderBtn">
@@ -576,7 +576,7 @@
     </p>
     <div class="modal-actions">
       <!-- ?? PASTE YOUR WHATSAPP NUMBER BELOW (with country code, no + or spaces) -->
-      <a href="https://wa.me/923001234567" target="_blank" rel="noopener" class="btn wa-btn">
+      <a href="https://wa.me/923484471224" target="_blank" rel="noopener" class="btn wa-btn">
         <i data-lucide="message-circle" style="width:18px;height:18px;"></i> Chat with us on WhatsApp
       </a>
       <button class="modal-close-link" id="modalCloseBtn">Continue Shopping</button>
@@ -586,18 +586,18 @@
 
 <script>
 /* ======================================================================
-   1. DYNAMIC DATA STRUCTURE — products array (edit/add items freely)
+   1. DYNAMIC DATA STRUCTURE â€” products array (edit/add items freely)
    ====================================================================== */
 const products = [
   {
     id: 1,
-    name: "Vienna Leather Tote",
-    price: 8500,
-    description: "Hand-stitched full-grain leather tote with brushed brass hardware and a soft suede lining. Roomy enough for daily essentials, refined enough for the office.",
+    name: "NIKE 420",
+    price: 9499,
+    description: "The Nike, JUST DO IT.",
     images: [
-      "https://images.unsplash.com/photo-1591561954557-26941169b49e?q=80&w=900&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=900&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?q=80&w=900&auto=format&fit=crop"
+      "https://i.ibb.co/4g2b3Mj7/photo-1542291026-7eec264c27ff.jpg",
+      "https://i.ibb.co/WNrngmtw/photo-1548801133-da353ebb1d97.jpg",
+      "https://i.ibb.co/whFpw8kf/photo-1582588678413-dbf45f4823e9.jpg"
     ]
   },
   {
@@ -897,7 +897,7 @@ function showToast(title, subtitle, isWarning = false){
 }
 
 /* ======================================================================
-   6. AJAX CHECKOUT SUBMISSION — formsubmit.co (no page reload)
+   6. AJAX CHECKOUT SUBMISSION â€” formsubmit.co (no page reload)
    ====================================================================== */
 const orderDetailsField = document.getElementById('orderDetailsField');
 const submitOrderBtn = document.getElementById('submitOrderBtn');
@@ -905,9 +905,9 @@ const submitBtnText = document.getElementById('submitBtnText');
 
 function buildOrderSummary(){
   const lines = [];
-  lines.push("———————————————————");
-  lines.push("        NEW ORDER — LUMÉ");
-  lines.push("———————————————————");
+  lines.push("â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”");
+  lines.push("        NEW ORDER â€” LUMÃ‰");
+  lines.push("â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”");
   lines.push("");
   cart.forEach((item, idx) => {
     lines.push(`${idx + 1}. ${item.name}`);
@@ -915,9 +915,9 @@ function buildOrderSummary(){
     lines.push("");
   });
   const total = cart.reduce((sum,i) => sum + (i.price * i.qty), 0);
-  lines.push("———————————————————");
+  lines.push("â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”");
   lines.push(`GRAND TOTAL: Rs. ${total.toLocaleString()}`);
-  lines.push("———————————————————");
+  lines.push("â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”");
   return lines.join('\n');
 }
 
@@ -941,8 +941,8 @@ checkoutForm.addEventListener('submit', async (e) => {
   const custName = formData.get('Customer_Name');
 
   try {
-    /* ?? PASTE YOUR GMAIL ADDRESS BELOW — replace YOUR_EMAIL_PLACEHOLDER@GMAIL.COM */
-    const response = await fetch('https://formsubmit.co/ajax/YOUR_EMAIL_PLACEHOLDER@gmail.com', {
+    /* ?? PASTE YOUR GMAIL ADDRESS BELOW â€” replace YOUR_EMAIL_PLACEHOLDER@GMAIL.COM */
+    const response = await fetch('https://formsubmit.co/ajax/shaniliaqat3@gmail.com', {
       method: 'POST',
       headers: { 'Accept': 'application/json' },
       body: formData
@@ -950,7 +950,7 @@ checkoutForm.addEventListener('submit', async (e) => {
 
     if(!response.ok) throw new Error('Network response was not ok');
 
-    // Success — show confirmation modal
+    // Success â€” show confirmation modal
     document.getElementById('modalCustName').textContent = custName;
     openModal();
 
